@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^/?$ db.json [L]
+
+<Files "db.json">
+   ForceType application/json
+</Files>
